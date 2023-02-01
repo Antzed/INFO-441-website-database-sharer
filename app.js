@@ -27,7 +27,7 @@ app.use(function(req, res, next) {
     next();
 });
 
-// app.use('/api/v1', apiV1Router);
+app.use('/api/v1', apiV1Router);
 app.use('/api/v2', apiV2Router);
 
 
